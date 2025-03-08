@@ -47,12 +47,12 @@ This implementation processes numbers as **binary vectors**, making it efficient
 ### **1️⃣ Compilation**  
 Compile the program using `g++`:  
 ```sh
-g++ BigInt.cpp -o bigint
+g++ BigInt.cpp -o bigint 
+./bigint
 
-### **Running the program**
-    ./bigint
-
-Future Enhancements
+```    
+---
+### Future Enhancements
 🔹 Division & Modulo operations
 🔹 Modular exponentiation for cryptographic applications
 🔹 Optimization using bitwise shifts
